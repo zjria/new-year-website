@@ -55,6 +55,7 @@ body {
 /* Bannter Section style */
 
 .banner {
+    padding: 100px 0px;
     max-width: 1100px;
     display: flex;
     justify-content: center;
@@ -80,13 +81,35 @@ body {
 
 .banner ul li {
     list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.banner ul li img {
+    padding-right: 10px;
 }
 
 .banner .images {
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 .banner .images img {
-    width: 60%;
+    width: 70%;
+}
+
+/* My Plans style */
+.my-plans {
+    max-width: 1100px;
+}
+
+.my-plans .details {
+    display: flex;
+    justify-content: center;
 }
