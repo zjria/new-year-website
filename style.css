@@ -105,11 +105,47 @@ body {
 }
 
 /* My Plans style */
-.my-plans {
-    max-width: 1100px;
+
+.my-plans h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    padding-bottom: 50px;
 }
 
 .my-plans .details {
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.details .single-plan {
+    margin-right: 30px;
+}
+
+.details .single-plan img {
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 14px;
+}
+
+.details .single-plan h5 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.details .single-plan p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+    padding-top: 16px;
 }
