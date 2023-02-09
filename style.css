@@ -1,33 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Work Sans',
-        sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
-.bg-primary {}
+.btn-primary {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: rgb(0, 95, 172);
+    margin-top: 32px;
+    border: none;
+}
 
-/* Header Section style */
 .header {
-    background: url(images/banner/banner3.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: url("images/banner/banner3.png") 0% 0% / 100% 100% no-repeat;
 }
 
 .title {
     text-align: right;
     padding-right: 130px;
+    padding-bottom: 100px;
 }
 
 .title h1 {
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     padding-top: 100px;
 }
 
@@ -35,24 +43,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+    padding: 25px 0px;
 }
-
-.title button {
-    background: #FFFFFF;
-    border-radius: 5px;
-    padding: 20px 25px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: right;
-    color: #005FAC;
-    margin-top: 32px;
-    border: none;
-    margin-bottom: 100px;
-}
-
-/* Bannter Section style */
 
 .banner {
     padding: 100px 0px;
@@ -67,7 +60,7 @@ body {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    color: #151414;
+    color: rgb(21, 20, 20);
     margin-bottom: 24px;
 }
 
@@ -75,7 +68,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #444343;
+    color: rgb(68, 67, 67);
     margin-bottom: 16px;
 }
 
@@ -87,7 +80,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #444343;
+    color: rgb(68, 67, 67);
 }
 
 .banner ul li img {
@@ -104,14 +97,16 @@ body {
     width: 70%;
 }
 
-/* My Plans style */
+.my-plans {
+    margin-bottom: 100px;
+}
 
 .my-plans h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
-    color: #151414;
+    color: rgb(21, 20, 20);
     padding-bottom: 50px;
 }
 
@@ -123,10 +118,11 @@ body {
 
 .details .single-plan {
     margin-right: 30px;
+    width: 250px;
 }
 
 .details .single-plan img {
-    width: 50%;
+    width: 35%;
     margin: auto;
     justify-content: center;
     display: flex;
@@ -135,10 +131,10 @@ body {
 
 .details .single-plan h5 {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 30px;
     text-align: center;
-    color: #151414;
+    color: rgb(21, 20, 20);
 }
 
 .details .single-plan p {
@@ -146,6 +142,348 @@ body {
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-    color: #737272;
+    color: rgb(115, 114, 114);
     padding-top: 16px;
+}
+
+.call-me {
+    max-width: 1100px;
+    display: flex;
+    margin: auto auto 50px;
+}
+
+.call-me .call-content {
+    background-image: linear-gradient(90deg, rgb(0, 95, 172) 0%, rgba(0, 95, 172, 0) 100%), url("images/watch.png");
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+}
+
+.call-content h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+    padding: 50px 0px 25px 50px;
+}
+
+button.btn-primary {
+    margin: 0px 0px 0px 50px;
+}
+
+footer {
+    background: rgb(21, 20, 20);
+}
+
+.footer-section {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 130px 0px;
+    align-items: center;
+}
+
+.footer-content h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: rgb(248, 248, 248);
+    margin-bottom: 16px;
+}
+
+.footer-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    margin: 24px 0px;
+}
+
+.footer-content ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-content ul li {
+    margin-right: 15px;
+}
+
+.footer-Subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 31px;
+}
+
+.footer-Subscribe input {
+    background: rgb(21, 20, 20);
+    padding: 21px 150px 21px 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(243, 243, 243);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.footer-Subscribe button {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    background: rgb(0, 95, 172);
+    margin: 32px 0px;
+    border: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: rgb(0, 95, 172);
+    margin-top: 32px;
+    border: none;
+}
+
+.header {
+    background: url("images/banner/banner3.png") 0% 0% / 100% 100% no-repeat;
+}
+
+.title {
+    text-align: right;
+    padding-right: 130px;
+    padding-bottom: 100px;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+
+.title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    padding: 25px 0px;
+}
+
+.banner {
+    padding: 100px 0px;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: rgb(21, 20, 20);
+    margin-bottom: 24px;
+}
+
+.banner p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(68, 67, 67);
+    margin-bottom: 16px;
+}
+
+.banner ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(68, 67, 67);
+}
+
+.banner ul li img {
+    padding-right: 10px;
+}
+
+.banner .images {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .images img {
+    width: 70%;
+}
+
+.my-plans {
+    margin-bottom: 100px;
+}
+
+.my-plans h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: rgb(21, 20, 20);
+    padding-bottom: 50px;
+}
+
+.my-plans .details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details .single-plan {
+    margin-right: 30px;
+    width: 250px;
+}
+
+.details .single-plan img {
+    width: 35%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 14px;
+}
+
+.details .single-plan h5 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(21, 20, 20);
+}
+
+.details .single-plan p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: rgb(115, 114, 114);
+    padding-top: 16px;
+}
+
+.call-me {
+    max-width: 1100px;
+    display: flex;
+    margin: auto auto 50px;
+}
+
+.call-me .call-content {
+    background-image: linear-gradient(90deg, rgb(0, 95, 172) 0%, rgba(0, 95, 172, 0) 100%), url("images/watch.png");
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+}
+
+.call-content h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+    padding: 50px 0px 25px 50px;
+}
+
+button.btn-primary {
+    margin: 0px 0px 0px 50px;
+}
+
+footer {
+    background: rgb(21, 20, 20);
+}
+
+.footer-section {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 130px 0px;
+    align-items: center;
+}
+
+.footer-content h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: rgb(248, 248, 248);
+    margin-bottom: 16px;
+}
+
+.footer-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    margin: 24px 0px;
+}
+
+.footer-content ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-content ul li {
+    margin-right: 15px;
+}
+
+.footer-Subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 31px;
+}
+
+.footer-Subscribe input {
+    background: rgb(21, 20, 20);
+    padding: 21px 150px 21px 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(243, 243, 243);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.footer-Subscribe button {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    background: rgb(0, 95, 172);
+    margin: 32px 0px;
+    border: none;
 }
